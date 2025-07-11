@@ -25,7 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/program.css" rel="stylesheet">
 
   <!-- JS -->
    <script>
@@ -68,12 +68,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="beranda.html" class="active">Beranda<br></a></li>
+          <li><a href="beranda.html">Beranda<br></a></li>
           <li><a href="tentang.html">Tentang</a></li>
-          <li class="dropdown"><a><span>Program</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a><span  class="active">Program</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="unitpendidikan.html">Unit Pendidikan</a></li>
-              <li><a href="">Program Khusus</a></li>
+              <li><a href="programkhusus.html">Program Khusus</a></li>
               <li><a href="">Ekstrakulikuler</a></li>
               <li><a href="">Agenda Santri</a></li>
             </ul>
@@ -93,119 +93,87 @@ document.addEventListener("DOMContentLoaded", function() {
       </nav>
     </div>
   </header>
+  <section id="unit-pendidikan" class="unit-pendidikan section" style="background: #f9fafb; padding: 60px 0;">
+  <div class="container">
+
+    <div class="section-header text-center" data-aos="fade-up">
+      <h2><i class="bi bi-bank"></i> Unit Pendidikan Pondok Pesantren ALBERR</h2>
+      <hr class="mx-auto" style="width: 60px; border-top: 3px solid #28a745;">
+      <p>Berikut unit pendidikan di bawah naungan Pondok Pesantren ALBERR Pandaan yang mendidik santri dengan ilmu dan akhlaq untuk masa depan gemilang.</p>
+    </div>
+
+    <div class="row gy-4 mt-4">
+
+      <!-- SMP ALBERR -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card shadow-sm h-100">
+          <img src="assets/img/unit/smp-alberr.jpg" class="card-img-top" alt="SMP ALBERR Pandaan">
+          <div class="card-body">
+            <h5 class="card-title">SMP ALBERR Pandaan</h5>
+            <span class="badge bg-success mb-2">Akreditasi A</span>
+            <p class="card-text">SMP ALBERR Pandaan telah terakreditasi A, memadukan ilmu umum dan agama, membentuk akhlaqul karimah dan keterampilan santri untuk masa depan.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SMA ALBERR -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+        <div class="card shadow-sm h-100">
+          <img src="assets/img/unit/sma-alberr.jpg" class="card-img-top" alt="SMA ALBERR Pandaan">
+          <div class="card-body">
+            <h5 class="card-title">SMA ALBERR Pandaan</h5>
+            <p class="card-text">SMA ALBERR Pandaan hadir untuk mencetak generasi berprestasi dengan ilmu pengetahuan dan akhlaqul karimah dalam lingkungan pesantren yang asri.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sekolah Tinggi ALBERR -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="card shadow-sm h-100">
+          <img src="assets/img/unit/st-alberr.jpg" class="card-img-top" alt="Sekolah Tinggi ALBERR">
+          <div class="card-body">
+            <h5 class="card-title">Sekolah Tinggi ALBERR</h5>
+            <p class="card-text">Sekolah Tinggi ALBERR (INSIDA Gresik) membuka Fakultas Ekonomi Syariah, Manajemen Bisnis Syariah, Psikologi, dan PAI untuk mencetak sarjana Islami berprestasi.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Madrasah Diniyyah Riyadlotul Uqul -->
+      <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="250">
+        <div class="card shadow-sm h-100">
+          <img src="assets/img/unit/madrasah-diniyah.jpg" class="card-img-top" alt="Madrasah Diniyyah Riyadlotul Uqul">
+          <div class="card-body">
+            <h5 class="card-title">Madrasah Diniyyah Riyadlotul Uqul</h5>
+            <p class="card-text">Madrasah Diniyyah yang fokus pada penguatan ilmu agama (fiqih, aqidah, akhlaq) dengan kurikulum terstruktur manhaj Ahlussunnah wal Jama'ah.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Madrasah Qur'aniyah Sidogiri -->
+      <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="card shadow-sm h-100">
+          <img src="assets/img/unit/mq-sidogiri.jpg" class="card-img-top" alt="Madrasah Qur'aniyah Sidogiri">
+          <div class="card-body">
+            <h5 class="card-title">Madrasah Qur'aniyah Sidogiri</h5>
+            <p class="card-text">Program tahfidz dan penguatan bacaan Al-Qur’an dengan metode talaqqi, tashih, dan muroja’ah untuk mencetak generasi cinta Al-Qur’an.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
+      <a href="pendaftaran.html" class="btn btn-success btn-lg"><i class="bi bi-pencil-square"></i> Daftar Santri Sekarang</a>
+    </div>
+
+  </div>
+</section>
 
 
 
   <main class="main">
+  
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container">
-        <h2 data-aos="fade-up" data-aos-delay="100">Informasi<br>Pondok Pesantren ALBERR</h2>
-        <p data-aos="fade-up" data-aos-delay="200"></p>
-        <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="tentang.html" class="btn-get-started">Klik Disini</a>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/Galeri/kamisan.jpg" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Kenapa Memilih Pondok Pesantren ALBERR</h3>
-            <p class="fst-italic">
-              Pondok Pesantren Alberr adalah lembaga pendidikan Islam yang berfokus pada pengembangan karakter dan pengetahuan agama. Kami menyediakan lingkungan yang kondusif untuk belajar dan tumbuh, dengan berbagai kegiatan harian yang dirancang untuk memperkaya pengalaman santri.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Pusat Pendidikan Akhlaq Dan Ilmu Pengetahuan</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Intregasi Ilmu Agama Dan Umum</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Pendidikan Salaf Dan Modern Yang Terpadu</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Pembelajaran Siswa Aktif Dengan Prestasi</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Program Cepat Belajar Kitab Kuning "Amtsilati"</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Pesantren Yang Asri Dan Menjunjung Tinggi Kebersihan</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Fasilitas Lengkap Dan Terawat</span></li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Counts Section -->
-    <section id="counts" class="section counts light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1517" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Santri Aktif</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Pengajar</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Unit Pendidikan Dan Program Khusus</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="63" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Prestasi</p>
-            </div>
-          </div><!-- End Stats Item -->
-        </div>
-        </section>
-        
-    <!-- /Counts Section -->
-
-<!-- Galeri Pondok -->
-<div class="galeri section">
-  <div class="container">
-
-    <div class="section-header" data-aos="fade-up">
-      <h2>Galeri Pondok Pesantren</h2>
-      <p>Berikut adalah beberapa foto kegiatan di Pondok Pesantren Alberr.</p>
-    </div>
-
-    <div class="gallery-slideshow" data-aos="fade-up" data-aos-delay="100">
-      <img src="assets/img/Galeri/kamisan.jpg" alt="Galeri 1" class="slide active">
-      <img src="assets/img/Galeri/mmu.JPG" alt="Galeri 2" class="slide">
-      <img src="assets/img/Galeri/shlttasbih.JPG" alt="Galeri 3" class="slide">
-      <img src="assets/img/Galeri/drama.JPG" alt="Galeri 4" class="slide">
-      <img src="assets/img/Galeri/ujian.JPG" alt="Galeri 5" class="slide">
-      <img src="assets/img/Galeri/masjid.jpg" alt="Galeri 6" class="slide">
-    </div>
-
-  </div>
-</div>
-<!-- /Galeri Pondok -->
 
   <footer id="footer" class="footer position-relative light-background">
 

@@ -888,63 +888,73 @@ section,
   text-transform: uppercase;
 }
 
-/* ===== Program ALBERR Section ===== */
-.program.section {
-    padding: 60px 0;
-    background: linear-gradient(to bottom, #f0f4f8, #ffffff);
-}
+/* UNIT PENDIDIKAN */
 
-.program .section-header h2 {
-    font-weight: 700;
-    color: #1e3c72;
-}
-
-.program .section-header p {
-    color: #555;
-    max-width: 600px;
-    margin: 10px auto 0;
-}
-
-.program .card {
-    background: #ffffff;
+.unit-pendidikan .card {
     border: none;
     border-radius: 12px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    height: 100%;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.program .card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+.unit-pendidikan .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-.program .card h5 {
-    font-weight: 600;
+.unit-pendidikan .card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.unit-pendidikan .card-title {
     color: #1e3c72;
-    margin-bottom: 10px;
+    font-weight: 600;
 }
 
-.program .card p {
-    font-size: 15px;
-    color: #555;
-    margin-bottom: 0;
-}
-
-.program .badge {
-    font-size: 13px;
-    padding: 5px 10px;
-    border-radius: 20px;
-}
-
-.program .btn {
+.unit-pendidikan .btn {
     border-radius: 30px;
     padding: 12px 25px;
     font-size: 16px;
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.program .btn:hover {
+.unit-pendidikan .btn:hover {
+    background: #28a745;
+    transform: translateY(-3px);
+}
+
+/* PROGRAM KHUSUS */
+.program-khusus .card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.program-khusus .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.program-khusus .card-img-top {
+    height: 240px;
+    object-fit: cover;
+}
+
+.program-khusus .card-title {
+    font-weight: 600;
+    color: #1e3c72;
+}
+
+.program-khusus .btn {
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.program-khusus .btn:hover {
     background: #28a745;
     transform: translateY(-3px);
 }
