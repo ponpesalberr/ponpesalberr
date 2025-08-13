@@ -2,4 +2,15 @@ a{
 color: blue;
 text-decoration: none;
 width: 100px;
+height: max-content;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    color: black;
 }
