@@ -16,3 +16,32 @@ nav ul {
     margin-right: 20px;
     
 }
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul li a.active {
+    font-weight: bold;
+    color: red;
+}
+nav ul li a:visited {
+    color: purple;
+}
+nav ul li a:visited:hover {
+    color: darkred;
+}
+nav ul li a:visited.active {
+    color: darkred;
+}
+nav ul li a:visited.active:hover {
+    color: darkred;
+    text-decoration: underline;
+}
